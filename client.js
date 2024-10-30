@@ -5,7 +5,7 @@ const readline = require('readline');
 
 const SERVER_PORT = 8080; // Porta do servidor principal
 const REPLICA_PORT = 8081; // Porta da máquina réplica
-const HOST = '192.168.1.230'; // Endereço do servidor principal
+const SERVER_HOST = '192.168.1.230'; // Endereço do servidor principal
 const REPLICA_HOST = '192.168.1.230'; // Endereço da máquina réplica (pode ser o mesmo para fins de teste)
 const downloadDir = path.join(__dirname, 'downloads');
 
@@ -62,7 +62,7 @@ function connectToServer(port, host) {
 }
 
 // Tenta se conectar ao servidor principal
-connectToServer(SERVER_PORT, HOST);
+connectToServer(SERVER_PORT, SERVER_HOST);
 
 // Se a conexão falhar, tenta se conectar à réplica
 client.on('error', () => {
