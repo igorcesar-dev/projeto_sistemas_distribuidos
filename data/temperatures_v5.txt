@@ -1,0 +1,10 @@
+Versão 5 - Relação de Temperaturas do Sudoeste da Bahia:
+Vitória da Conquista: 33°C
+Itapetinga: 19°C
+Jequié: 29°C
+Brumado: 19°C
+Poções: 28°C
+Guanambi: 30°C
+Caetité: 20°C
+Barra do Choça: 23°C
+Igaporã: 31°C
