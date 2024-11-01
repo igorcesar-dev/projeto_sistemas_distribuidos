@@ -1,4 +1,0 @@
-Versão 5 - Relação de Temperaturas do Sudoeste da Bahia:
-Vitória da Conquista: 25°C
-Itapetinga: 27°C
-Jequié: 29°C
